@@ -6,33 +6,35 @@ body {
     margin: 0;
     height: 100vh;
     display: flex;
-    flex-direction: column;      /* Esto acomoda una cosa abajo de otra */
-    justify-content: center;     /* Centra verticalmente */
-    align-items: center;         /* Centra horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: 'Cal Sans', sans-serif;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
+    gap: 8px; /* Espaciado pequeño entre todos los hijos del body */
 }
 
 h1 {
-    font-family: 'Archivo Black', sans-serif;
-    margin-bottom: 10px;
     font-size: 4rem;
     color: white;
+    font-family: 'Archivo Black', sans-serif;
+    margin: 0;
 }
 
 h2 {
     font-weight: normal;
-    margin-bottom: 20px;
+    margin: 0;
 }
 
 p {
     max-width: 600px;
-    margin-bottom: 30px;
+    margin: 0;
 }
 
 footer {
     font-size: 0.8em;
     color: #666;
+    margin-top: 10px;
 }
